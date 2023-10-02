@@ -14,6 +14,7 @@
         src="./assets/bowtie-cat.png"
         alt="Profile image of cat wearing a bow tie."
       />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -64,8 +65,26 @@
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-          <li>git status: checks what branch we are currently on</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>        </ul>   
+          <li>git status: checks what branch we are currently on.</li>
+          <li>git checkout -b branch-name: creates a new branch and switches to it.</li>
+          <li>git checkout main: moves working branch to main.</li>
+          <li>git add -A: adds files from the working branch to the stage area.</li>
+          <li>git commit -m "commit message": commits files from your local environment. Like a local save.</li>
+          <li>git pull origin main: pulls the current updated main files from GitHub to local environment.</li>
+          <li>git push origin "branch/name": pushes the branch from local environment to GitHub.</li>
+          <li>The GitFlow:
+            <ol>
+              <li>git add -A</li>
+              <li>git commit -m "commit message"</li>
+              <li>git pull origin main</li>
+              <li>git push origin (branch/name)</li>
+              <li>Create Pull Request in Github</li>
+              <li>Merge the Pull Request in Github</li>
+              <li>git checkout main</li>
+              <li>git pull origin main</li>
+            </ol>
+          </li>
+        </ul>   
       </section>
    
       <section class="card" id="javascript-section">
@@ -79,5 +98,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
